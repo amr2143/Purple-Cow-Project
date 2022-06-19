@@ -1,0 +1,28 @@
+{
+    "stats":[
+        {
+            "race":"Black",
+            "populationPercent": 29,
+            "casePercent": 33,
+            "deathPercent": 35
+        },
+        {
+            "race":"Hispanic",
+            "populationPercent": 10,
+            "casePercent":19,
+            "deathPercent":9
+        }
+        {
+            "race": "Asian",
+            "populationPercent": 6,
+            "casePercent": 3,
+            "deathPercent": 4
+        },
+        {
+            "race": "White",
+            "populationPercent": 51,
+            "casePercent": 40,
+            "deathPercent": 52
+        }
+    ]
+}

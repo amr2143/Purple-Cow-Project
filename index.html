@@ -1,0 +1,101 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href ="main.css">
+    <script src="https://kit.fontawesome.com/65af868cf9.js" crossorigin="anonymous"></script>
+    <title>Purple Cow Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top purpleBackground">
+        <div class = "container-fluid">
+            <a class = "navbar-brand mb-0 h1" href ="#"><i class = "fa-solid fa-cow"></i> Project Purple Cow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class = "collapse navbar-collapse">
+                <ul class = "navbar-nav">
+                    <li class = "nav-item">
+                        <a class = "nav-link" href ="#">Free Testing & Vaccines</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href ="#">Quarantine Support</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href ="#">Health & Wellness</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id = "mainImage" class ="container-fluid" style ="background-image: url('images/baltimore project purple.jpeg'); background-size: cover; background-position: bottom;">
+        <div class = "container overflow-hidden">
+            <div class="row gx-5 p-4 d-flex">
+                <div class = "p-3 bg-light bg-opacity-75 algin-items-center" >
+                    <h1 class = "center">Welcome to the Purple Cow Project</h1>
+                    <h4>Where Education is Power</h4>
+                    <p>Since the beginning of the Covid-19 pandemic, minority communities have been disproportionately impacted physically, mentally, and economically. 
+                        Here at the Purple Cow Project, we aim to educate and assist struggling Baltimore families by providing them with proactive and reactive
+                         resources so that parents and children can return quickly to normal life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "container p-4">
+        <h2>Covid Effects by Race/Ethnicity in Maryland</h2>
+        <div class = "row">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Race</th>
+                        <th scope="col">Percent of Population</th>
+                        <th scope="col">Percent of Cases</th>
+                        <th scope="col">Percent of Deaths</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row p-2">Black Americans</th>
+                        <td>29%</td>
+                        <td>33%</td>
+                        <td>35%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row p-2">Hispanic Americans</th>
+                        <td>10%</td>
+                        <td>19%</td>
+                        <td>9%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row p-2">Asian Americans</th>
+                        <td>6%</td>
+                        <td>3%</td>
+                        <td>4%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row p-2">White Americans</th>
+                        <td>51%</td>
+                        <td>40%</td>
+                        <td>52%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class = "container-fluid purpleBackground text-white">
+        <div class = "container p-4">
+            <h2>We Need Your Help</h2>
+            <p>We are currently gathering interest on creating some Purple Cow Project swag that would help provide financial support for struggling Covid families. Please provide your vote by clicking the button below.</p>
+            <div class = "container text-center">
+                <h1 id = "counter"></h1>
+                <h4 id="counterMessage"></h4>
+                <button id = "vote" class ="btn btn-outline-info">Count me in!</button>
+        </div>
+        </div>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type = "text/javascript" src="stats.json"></script>
+  </body>
+</html>
